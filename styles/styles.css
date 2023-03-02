@@ -1178,6 +1178,23 @@ display: block;
     padding-right: 15px;
   }
 
+.nav-link {
+  padding-bottom: 17px;
+}
+
+
+.header-contact-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-contact-item {
+  display: flex;
+}
+
+
+
+
 } 
 
 
