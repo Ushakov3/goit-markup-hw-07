@@ -368,7 +368,7 @@ address {
 }
 
 .logo-header-link-footer:is(:hover, :focus) {
-  color: var(--accent-color);
+  color: var(--second-accent-color);
 }
 
 
@@ -1077,7 +1077,7 @@ margin: 0;
 /* ------------------------------Team------------------------------  */
 /* -----------------------customers-----------------------  */
 
-/* .customers {
+.customers {
   text-align: center;
   padding-top: 96px;
   padding-bottom: 96px;
@@ -1100,7 +1100,7 @@ margin: 0;
 
 .customers-item {
   width: 168px;
-} */
+}
 
 
 /* -----------------------customers-----------------------  */
