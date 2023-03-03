@@ -82,7 +82,9 @@ address {
 }
 
 /* ----------------------address----------------------  */
-
+.logo-header-link-footer:is(:hover, :focus) {
+  color: var(--second-accent-color);
+}
 .header-mail:is(:hover, :focus),
 .header-tel:is(:hover, :focus) {
   color: var(--accent-color);
@@ -96,7 +98,6 @@ address {
   line-height: 1.33;
   text-transform: uppercase;
   color: #f4f4fd;
-  transition: color var(--transition-dur-func);
 }
 .logo-header-link:is(:hover, :focus) {
   color: var(--second-accent-color);
@@ -287,10 +288,6 @@ address {
   text-transform: uppercase;
   color: #272c7f;
   transition: color var(--transition-dur-func);
-}
-
-.logo-header-link:is(:hover, :focus) {
-  color: var(--second-accent-color);
 }
 
 /* --------------------------Logo--------------------------  */
