@@ -840,7 +840,7 @@ address {
 
   .team-soc-mobile-list {
     display: flex;
-    padding-left: 24px;
+    /* padding-left: 24px; */
     /* gap: 24px; */
     justify-content: space-around;
   }
